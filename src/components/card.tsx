@@ -1,4 +1,4 @@
-import * as dayjs from 'dayjs'
+import dayjs from 'dayjs'
 import { Article } from "../types/article";
 
 export default function Card({ title, content, imageUrl, imageAlt, articleUrl, byLine, articleDate }: Article) {
