@@ -1,4 +1,4 @@
-import * as moment from "moment";
+import moment from "moment";
 import { Article } from "../types/article";
 
 export default function Card({ title, content, imageUrl, imageAlt, articleUrl, byLine, articleDate }: Article) {
